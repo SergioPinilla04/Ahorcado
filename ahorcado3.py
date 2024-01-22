@@ -13,6 +13,9 @@ while fallos < fallos_maximos:
             print("La letra ", letra, " se encuentra en la posición número ", posicion, " de la palabra objetivo")
             encontrada = True
 
+    if encontrada == True:
+        print("¡Enhorabuena! Has ganado.")
+
     if not encontrada:
         fallos += 1
         print("¡Fallaste! La letra ", letra, " no está en la palabra que buscas. Llevas ", fallos, " fallos.")
