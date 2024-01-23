@@ -20,12 +20,12 @@ while fallos < fallos_maximos and "_" in palabra_oculta:
             encontrada = True
 
     if encontrada:
-        print("¡Enhorabuena! La letra {} está en la palabra: {}".format(letra, " ".join(palabra_oculta)))
+        print("¡Enhorabuena! La letra", letra, "está en la palabra:", " ".join(palabra_oculta))
     else:
         fallos += 1
-        print("¡Fallaste! La letra {} no está en la palabra. Llevas {} fallos.".format(letra, fallos))
+        print("¡Fallaste! La letra", letra, "no está en la palabra. Llevas", fallos, "fallos.")
 
 if "_" not in palabra_oculta:
-    print("¡Enhorabuena! Has adivinado la palabra: {}".format("".join(palabra_oculta)))
+    print("¡Enhorabuena! Has adivinado la palabra:", "".join(palabra_oculta))
 else:
-    print("Has alcanzado el límite de fallos. La palabra era: {}".format(palabra))
+    print("Has alcanzado el límite de fallos. La palabra era:", palabra)
