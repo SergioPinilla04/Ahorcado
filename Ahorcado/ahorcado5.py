@@ -1,7 +1,7 @@
 import random
 from conexion import conectar, cerrar
 
-palabras = ["teclado", "python", "programacion", "ahorcado", "juego", "computadora"]
+palabras = ["teclado", "python", "programacion", "ahorcado", "juego", "ordenador"]
 
 palabra = random.choice(palabras)
 palabra_oculta = ["_"] * len(palabra)
