@@ -1,3 +1,3 @@
 # Python
 
-Proyectos creados con Python desde 0 en el módulo de implantación de aplicaciones web de ASIR.
+Python projects I created in my web implementation class (ASIR '24)
