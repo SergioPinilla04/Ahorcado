@@ -6,7 +6,7 @@ Hangman is a game where you try to guess a word letter by letter, but be careful
 
 In this game, the user, their password, the guessing word, and the number of attempts are stored in a MySQL database.
 
-[Ahorcado](./img/ahorcado.png)
+![Ahorcado](./img/ahorcado.png)
 
 ## Contents
 
@@ -53,19 +53,19 @@ In this game, the user, their password, the guessing word, and the number of att
 
 1. **Registration:**
 
-    [Registration](./img/register.png)
+    ![Registration](./img/register.png)
 
 2. **Log in and delete account**
 
-    [delete](./img/delete.png)
+    ![delete](./img/delete.png)
 
 3. **Game:**
 
-    [Game](./img/game.png)
+    ![Game](./img/game.png)
 
 4. **Database:**
 
-    [User](./img/user.png) [Attempts](./img/attempts.png)
+    ![User](./img/user.png) ![Attempts](./img/attempts.png)
 
 ## Contributions
 
