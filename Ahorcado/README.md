@@ -65,7 +65,7 @@ In this game, the user, their password, the guessing word, and the number of att
 
 4. **Database:**
 
-    ![User](./img/user.png) [Attempts](./img/attempts.png)
+    ![User](./img/user.png) ![Attempts](./img/attempts.png)
 
 ## Contributions
 
