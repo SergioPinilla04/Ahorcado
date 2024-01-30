@@ -99,14 +99,21 @@ def editar_cuenta_opcion(usuario):
         print("2. Cambiar contraseña")
         print("3. Volver al menú principal")
         opcion = input("Elige una opción: ")
+        
         if opcion == '1':
             nuevo_usuario = input("Ingresa el nuevo nombre de usuario: ")
-            editar_cuenta(usuario, nuevo_usuario=nuevo_usuario)
-            print("Nombre de usuario cambiado exitosamente.")
+            if editar_cuenta(usuario, nuevo_usuario=nuevo_usuario):
+                print("Nombre de usuario cambiado exitosamente.")
+                break  # Salir del bucle si se realizan cambios
+            else:
+                print("Error al cambiar el nombre de usuario. Intenta nuevamente.")
         elif opcion == '2':
             nueva_contrasena = getpass("Ingresa la nueva contraseña: ")
-            editar_cuenta(usuario, nueva_contrasena=nueva_contrasena)
-            print("Contraseña cambiada exitosamente.")
+            if editar_cuenta(usuario, nueva_contrasena=nueva_contrasena):
+                print("Contraseña cambiada exitosamente.")
+                break  # Salir del bucle si se realizan cambios
+            else:
+                print("Error al cambiar la contraseña. Intenta nuevamente.")
         elif opcion == '3':
             break
         else:
