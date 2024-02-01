@@ -28,7 +28,6 @@ def registrar_usuario(usuario, contrasena):
             hashed_password = hashlib.sha256(contrasena.encode()).hexdigest()
             cursor.execute("INSERT INTO usuarios (usuario, contrasena_hash) VALUES (%s, %s)", (usuario, hashed_password))
             conexion.commit()
-            print("¡Registro exitoso!")
         except mysql.connector.Error as e:
             if e.errno == 1062:  # 1062 es el código de error para entrada duplicada (clave única)
                 print("Error: El nombre de usuario ya está en uso.")
