@@ -6,7 +6,7 @@ Hangman is a game where you try to guess a word letter by letter, but be careful
 
 In this game, the user, their password, the guessing word, and the number of attempts are stored in a MySQL database.
 
-![Ahorcado](./img/ahorcado.png)
+![image](https://github.com/SergioPinilla04/Ahorcado/assets/113448338/b1053bc7-b50f-474a-ad48-c2227f4bf595)
 
 ## Contents
 
@@ -53,19 +53,20 @@ In this game, the user, their password, the guessing word, and the number of att
 
 1. **Registration:**
 
-    ![Registration](./img/register.png)
+    ![image](https://github.com/SergioPinilla04/Ahorcado/assets/113448338/73a0dcae-2448-4509-b0a1-481b7172bee0)
 
 2. **Log in and delete account**
 
-    ![delete](./img/delete.png)
+    ![image](https://github.com/SergioPinilla04/Ahorcado/assets/113448338/a17e6a86-6429-4be6-9245-3fd2805da611)
 
 3. **Game:**
 
-    ![Game](./img/game.png)
+    ![image](https://github.com/SergioPinilla04/Ahorcado/assets/113448338/c27bac6c-9436-4246-a706-2f37c073701f)
 
 4. **Database:**
 
-    ![User](./img/user.png) ![Attempts](./img/attempts.png)
+    ![image](https://github.com/SergioPinilla04/Ahorcado/assets/113448338/169b7104-e176-431e-a048-60d22be4b290)
+ ![image](https://github.com/SergioPinilla04/Ahorcado/assets/113448338/3140facd-c627-4d32-aa10-28fe00b5123d)
 
 ## Contributions
 
